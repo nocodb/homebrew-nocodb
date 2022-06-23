@@ -1,4 +1,4 @@
-class Noco < Formula
+class Nocodb < Formula
   desc "Get Human Readable file size information. - CLI"
   homepage "https://github.com/nocodb"
   url "https://github.com/pranavxc/nc-test-repo/releases/download/5000/noco.tar.gz"
