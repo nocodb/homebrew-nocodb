@@ -7,6 +7,6 @@ class Nocodb < Formula
   version "5000"
 
   def install
-    bin.install "noco"
+    bin.install "nocodb"
   end
 end
