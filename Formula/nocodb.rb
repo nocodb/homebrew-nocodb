@@ -1,10 +1,10 @@
 class Nocodb < Formula
   desc "NocoDB : Opensource smart spreadsheet"
   homepage "https://github.com/nocodb/nocodb"
-  url "https://github.com/nocodb/nocodb/releases/download/0.96.0/nocodb.tar.gz"
-  sha256 "577a1f5f46b2c2b4edcaf9445f5f9e2e336d8c0c255d72dce58dcdf0748f069b"
+  url "https://github.com/nocodb/nocodb/releases/download/0.96.1/nocodb.tar.gz"
+  sha256 "afd295afdab54f45d9fcfecec29657be46ca8c9f6a67d9d8922405c4a6e8f12d"
   license "MIT"
-  version "0.96.0"
+  version "0.96.1"
 
   def install
     bin.install "nocodb"
