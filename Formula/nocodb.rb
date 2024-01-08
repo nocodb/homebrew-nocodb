@@ -8,5 +8,14 @@ class Nocodb < Formula
 
   def install
     bin.install "nocodb"
+    (var/"lib/nocodb").mkpath
+  end
+
+  service do
+    run bin/"nocodb"
+    keep_alive true
+    working_dir var/"lib/nocodb"
+    log_path "/dev/null"
+    error_log_path var/"log/nocodb.log"
   end
 end
